@@ -6,6 +6,10 @@ TO-DO:
 - Assign bar to the right
 - Download Howdy Debian
 
+```
+sudo apt install remmina -y
+```
+
 Howdy - https://github.com/boltgolt/howdy
 ```
 sudo howdy add
