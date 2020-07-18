@@ -1,10 +1,18 @@
 # mint_deb_config
 
-Linux Mint Debian 
+Linux Mint Debian Distribution
+LMDE 4 Debbie - https://www.linuxmint.com/download_lmde.php
 
 TO-DO:
 - Assign bar to the right
 - Download Howdy Debian
+
+Howdy - https://github.com/boltgolt/howdy
+```
+sudo howdy add
+```
+
+Lotion - https://github.com/puneetsl/lotion
 
 Sublime Text
 ```
