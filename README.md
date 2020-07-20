@@ -7,7 +7,7 @@ TO-DO:
 - Download Howdy Debian
 
 ```
-sudo apt install remmina -y
+sudo apt install remmina git -y
 ```
 
 Howdy - https://github.com/boltgolt/howdy
