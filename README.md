@@ -25,7 +25,7 @@ sudo apt-get update
 sudo apt-get install sublime-text
 ```
 
-Docker - 
+Docker
 ```
 sudo apt update
 sudo apt install apt-transport-https ca-certificates curl gnupg2 software-properties-common -y
@@ -35,4 +35,12 @@ sudo apt update
 apt-cache policy docker-ce
 sudo apt install docker-ce
 sudo usermod -aG docker $USER
+```
+
+VirtualBox
+```
+wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+echo "deb [arch=amd64] http://download.virtualbox.org/virtualbox/debian bionic contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list
+sudo apt update
+sudo apt install virtualbox-6.1 -y
 ```
